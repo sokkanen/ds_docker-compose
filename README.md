@@ -7,8 +7,10 @@ Instructions:
 
 1. Build inventory image from the respective repository:
 
+ ```
     $ mvn clean verify
     $ docker build -t inventory:latest .
+ ```
 
 2. Build order image from the respective repository (Not implemented yet)
 
