@@ -71,8 +71,6 @@ services:
             - distnet
         ports:
             - "3000:3000"
-        deploy:
-            replicas: 1
     nginx:
         image: nginx:latest
         networks:
