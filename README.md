@@ -22,11 +22,18 @@ Instructions:
 2. Clone and build order image from the respective repository
 - https://github.com/apndx/Order
 
+ ```
+    $ docker build -t order:latest .
+ ```
 
 3. Clone and build frontend image from the respective repository
 
  - https://github.com/vsvala/OnlineStore_back
  - https://github.com/vsvala/OnlineStore (this does not need it's own image, as it is included in OnlineStore_back)
+
+ ```
+    $ docker build -t front:latest .
+ ```
 
 4. Run application
  ```
