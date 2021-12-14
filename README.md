@@ -26,9 +26,11 @@ Instructions:
 3. Clone and build frontend image from the respective repository
 
  - https://github.com/vsvala/OnlineStore_back
- - https://github.com/vsvala/OnlineStore
+ - https://github.com/vsvala/OnlineStore (this does not need it's own image, as it is included in OnlineStore_back)
 
 4. Run application
  ```
     $ docker-compose up
  ```
+
+5. Now you can open the Online Store with your [browser](http://localhost:3002). To simulate multiple customers, you can open the Online Store for example in two different browsers.
