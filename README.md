@@ -41,3 +41,15 @@ Instructions:
  ```
 
 5. Now you can open the Online Store with your [browser](http://localhost:3002). To simulate multiple customers, you can open the Online Store for example in two different browsers.
+
+6. Scaling
+
+To scale the number of replicated instances type
+
+```
+   $ docker-compose scale <service>=<number of instances>
+```
+e.g.:
+```
+   $ docker-compose scale inventory=4
+```
