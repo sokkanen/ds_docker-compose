@@ -43,8 +43,8 @@ services:
             mode: replicated
             replicas: 3
         healthcheck:
-            test: ["CMD", "curl", "http://localhost:8090/actuator/health"]
-            interval: 1m30s
+            test: ["CMD", "curl", "http://inventory:8080/actuator/health"]
+            interval: 10s
             timeout: 10s
             retries: 3
             start_period: 10s  
